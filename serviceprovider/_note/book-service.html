@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Mirrored from truelysell-html.dreamguystech.com/template/book-service.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 24 Dec 2020 11:45:21 GMT -->
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
+	<title>Truelysell | Template</title>
+
+	<!-- Favicons -->
+	<link rel="shortcut icon" href="assets/img/favicon.png">
+	
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;0,600;0,700;1,400&amp;display=swap" rel="stylesheet"> 
+	
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">
+
+	<!-- Fontawesome CSS -->
+	<link rel="stylesheet" href="assets/plugins/fontawesome/css/fontawesome.min.css">
+	<link rel="stylesheet" href="assets/plugins/fontawesome/css/all.min.css">
+
+	<!-- Main CSS -->
+	<link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+
+	<div class="main-wrapper">
+	
+		<!-- Header -->
+		<header class="header">
+			<nav class="navbar navbar-expand-lg header-nav">
+				<div class="navbar-header">
+					<a id="mobile_btn" href="javascript:void(0);">
+						<span class="bar-icon">
+							<span></span>
+							<span></span>
+							<span></span>
+						</span>
+					</a>
+					<a href="index.html" class="navbar-brand logo">
+						<img src="assets/img/logo.png" class="img-fluid" alt="Logo">
+					</a>
+					<a href="index.html" class="navbar-brand logo-small">
+						<img src="assets/img/logo-icon.png" class="img-fluid" alt="Logo">
+					</a>
+				</div>
+				<div class="main-menu-wrapper">
+					<div class="menu-header">
+						<a href="index.html" class="menu-logo">
+							<img src="assets/img/logo.png" class="img-fluid" alt="Logo">
+						</a>
+						<a id="menu_close" class="menu-close" href="javascript:void(0);"> <i class="fas fa-times"></i></a>
+					</div>
+					<ul class="main-nav">
+						<li>
+							<a href="index.html">Home</a>
+						</li>
+						<li>
+							<a href="categories.html">Categories</a>
+						</li>
+						<li class="has-submenu">
+							<a href="provider-dashboard.html">Providers</a>
+							<ul class="submenu">
+								<li><a href="provider-dashboard.html">Dashboard</a></li>
+								<li><a href="my-services.html">Services</a></li>
+								<li><a href="provider-bookings.html">Bookings</a></li>
+								<li><a href="provider-settings.html">Profile Settings</a></li>
+								<li><a href="provider-wallet.html">Wallet</a></li>
+								<li><a href="provider-subscription.html">Subscription</a></li>
+								<li><a href="provider-availability.html">Availability</a></li>
+								<li><a href="provider-reviews.html">Reviews</a></li>
+								<li><a href="provider-payment.html">Payment</a></li>
+							</ul>
+						</li>
+						<li class="has-submenu">
+							<a href="user-dashboard.html">Customers</a>
+							<ul class="submenu">
+								<li><a href="user-dashboard.html">Dashboard</a></li>
+								<li><a href="user-bookings.html">Bookings</a></li>
+								<li><a href="user-settings.html">Profile Settings</a></li>
+								<li><a href="user-wallet.html">Wallet</a></li>
+								<li><a href="user-reviews.html">Reviews</a></li>
+								<li><a href="user-payment.html">Payment</a></li>
+							</ul>
+						</li>
+						<li class="has-submenu">
+							<a href="#">Pages <i class="fas fa-chevron-down"></i></a>
+							<ul class="submenu">
+								<li><a href="search.html">Search</a></li>
+								<li><a href="service-details.html">Service Details</a></li>
+								<li class="active"><a href="add-service.html">Add Service</a></li>
+								<li><a href="edit-service.html">Edit Service</a></li>
+								<li><a href="chat.html">Chat</a></li>
+								<li><a href="notifications.html">Notifications</a></li>
+								<li><a href="about-us.html">About Us</a></li>
+								<li><a href="contact-us.html">Contact Us</a></li>
+								<li><a href="faq.html">Faq</a></li>
+								<li><a href="#">Terms & Conditions</a></li>
+								<li><a href="#">Privacy Policy</a></li>
+							</ul>
+						</li>
+						<li>
+							<a href="admin/index.html" target="_blank">Admin</a>
+						</li>
+						<li>
+							<a href="javascript:void(0);" data-toggle="modal" data-target="#provider-register">Become a Professional</a>
+						</li>
+						<li>
+							<a href="javascript:void(0);" data-toggle="modal" data-target="#user-register">Become a User</a>
+						</li>
+					</ul>
+				</div>
+				<ul class="nav header-navbar-rht">
+					<li class="nav-item">
+						<a class="nav-link header-login" href="javascript:void(0);" data-toggle="modal" data-target="#login_modal">Login</a>
+					</li>
+				</ul>
+			</nav>
+		</header>
+		<!-- /Header -->
+		
+		<div class="content">
+			<div class="container">
+				<div class="row justify-content-center">
+					<div class="col-lg-10">
+						<div class="section-header text-center">
+							<h2>Book Service</h2>
+						</div>
+						<form>
+							<div class="row">
+								<div class="col-lg-6">
+									<div class="form-group">
+										<label>Service Location <span class="text-danger">*</span></label>
+										<input class="form-control" type="text" placeholder="Enter a location" autocomplete="off">
+									</div>                            
+								</div>
+								<div class="col-lg-6">
+									<div class="form-group">
+										<label>Service amount</label>
+										<input class="form-control" type="text" value="$100" readonly>
+									</div>
+								</div>
+								<div class="col-lg-6">
+								   <div class="form-group">
+										<label>Date <span class="text-danger">*</span></label>
+										<input class="form-control hasDatepicker" type="text">
+									</div>
+								</div>
+								<div class="col-lg-6">
+									<div class="form-group">
+										<label>Time slot <span class="text-danger">*</span></label>
+										<select class="form-control">
+											<option>10:00 AM</option>
+											<option>11:00 AM</option>
+											<option>12:00 PM</option>
+											<option>01:00 PM</option>
+											<option>02:00 PM</option>
+											<option>03:00 PM</option>
+											<option>04:00 PM</option>
+											<option>05:00 PM</option>
+											<option>06:00 PM</option>
+											<option>07:00 PM</option>
+										</select>
+									</div>
+								</div>
+								<div class="col-lg-12">
+									<div class="form-group">
+										<div class="text-center">
+											<div id="load_div"></div>
+										</div>
+										<label>Notes</label>
+										<textarea class="form-control" rows="5"></textarea>
+									</div>
+								</div>
+							</div>
+							<div class="submit-section">
+								<button class="btn btn-primary submit-btn" type="submit">Continue to Book</button>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>﻿
+		
+		<!-- Footer -->
+		<footer class="footer">
+		
+			<!-- Footer Top -->
+			<div class="footer-top">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-3 col-md-6">
+							<!-- Footer Widget -->
+							<div class="footer-widget footer-menu">
+								<h2 class="footer-title">Quick Links  </h2>
+								<ul>
+									<li>
+										<a href="about-us.html">About Us</a>
+									</li>
+									<li>
+										<a href="contact-us.html">Contact Us</a>
+									</li>
+									<li>
+										<a href="faq.html">Faq</a>
+									</li>
+									<li>
+										<a href="#">Help</a>
+									</li>
+								</ul>
+							</div>
+							<!-- /Footer Widget -->
+						</div>
+						<div class="col-lg-3 col-md-6">
+							<!-- Footer Widget -->
+							<div class="footer-widget footer-menu">
+								<h2 class="footer-title">Categories</h2>
+								<ul>
+									<li>
+										<a href="search.html">Computer</a>
+									</li>
+									<li>
+										<a href="search.html">Interior</a>
+									</li>
+									<li>
+										<a href="search.html">Car Wash</a>
+									</li>
+									<li>
+										<a href="search.html">Cleaning</a>
+									</li>
+								</ul>
+							</div>
+							<!-- /Footer Widget -->
+						</div>
+						<div class="col-lg-3 col-md-6">
+							<!-- Footer Widget -->
+							<div class="footer-widget footer-contact">
+								<h2 class="footer-title">Contact Us</h2>
+								<div class="footer-contact-info">
+									<div class="footer-address">
+										<span><i class="far fa-building"></i></span>
+										<p>367 Hillcrest Lane, Irvine, California, United States</p>
+									</div>
+									<p><i class="fas fa-headphones"></i> 321 546 8764</p>
+									<p class="mb-0"><i class="fas fa-envelope"></i> truelysell@example.com</p>
+								</div>
+							</div>
+							<!-- /Footer Widget -->
+						</div>
+						<div class="col-lg-3 col-md-6">
+							<!-- Footer Widget -->
+							<div class="footer-widget">
+								<h2 class="footer-title">Follow Us</h2>
+								<div class="social-icon">
+									<ul>
+										<li>
+											<a href="#" target="_blank"><i class="fab fa-facebook-f"></i> </a>
+										</li>
+										<li>
+											<a href="#" target="_blank"><i class="fab fa-twitter"></i> </a>
+										</li>
+										<li>
+											<a href="#" target="_blank"><i class="fab fa-youtube"></i></a>
+										</li>
+										<li>
+											<a href="#" target="_blank"><i class="fab fa-google"></i></a>
+										</li>
+									</ul>
+								</div>
+								<div class="subscribe-form">
+                                    <input type="email" class="form-control" placeholder="Enter your email">
+                                    <button type="submit" class="btn footer-btn">
+                                        <i class="fas fa-paper-plane"></i>
+                                    </button>
+                                </div>
+							</div>
+							<!-- /Footer Widget -->
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- /Footer Top -->
+			
+			<!-- Footer Bottom -->
+			<div class="footer-bottom">
+				<div class="container">
+					<!-- Copyright -->
+					<div class="copyright">
+						<div class="row">
+							<div class="col-md-6 col-lg-6">
+								<div class="copyright-text">
+									<p class="mb-0">&copy; 2020 <a href="index.html">Truelysell</a>. All rights reserved.</p>
+								</div>
+							</div>
+							<div class="col-md-6 col-lg-6">
+								<!-- Copyright Menu -->
+								<div class="copyright-menu">
+									<ul class="policy-menu">
+										<li>
+											<a href="term-condition.html">Terms and Conditions</a>
+										</li>
+										<li>
+											<a href="privacy-policy.html">Privacy</a>
+										</li>
+									</ul>
+								</div>
+								<!-- /Copyright Menu -->
+							</div>
+						</div>
+					</div>
+					<!-- /Copyright -->
+				</div>
+			</div>
+			<!-- /Footer Bottom -->
+			
+		</footer>
+		<!-- /Footer -->
+		
+	</div>
+
+	<!-- jQuery -->
+	<script src="assets/js/jquery-3.5.0.min.js"></script>
+
+	<!-- Bootstrap Core JS -->
+	<script src="assets/js/popper.min.js"></script>
+	<script src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+
+	<!-- Custom JS -->
+	<script src="assets/js/script.js"></script>
+	
+</body>
+
+<!-- Mirrored from truelysell-html.dreamguystech.com/template/book-service.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 24 Dec 2020 11:45:21 GMT -->
+</html>
